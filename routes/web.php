@@ -11,6 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/master', function(){
+    return view('adminlte.master');
+});
+
+Route::get('items', function(){
+    return view('items.index');
+});
+
+Route::get('items/create', function(){
+    return view('items.create');
+});
+
+Route::get('/', function(){
+    return view('home');
+});
+
+Route::get('/data-tables', function(){
+    return view('data-tables');
 });
