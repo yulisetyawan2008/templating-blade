@@ -4,7 +4,7 @@
 <table class="table table-bordered">
   <thead>                  
     <tr>
-      <th style="width: 10px">#</th>
+      <th style="width: 10px">No</th>
       <th>Task</th>
       <th>Progress</th>
       <th style="width: 40px">Label</th>
@@ -16,7 +16,7 @@
       <td>Update software</td>
       <td>
         <div class="progress progress-xs">
-          <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+          <div class="progress-bar bg-danger" style="width: 55%"></div>
         </div>
       </td>
       <td><span class="badge bg-danger">55%</span></td>
@@ -50,6 +50,16 @@
         </div>
       </td>
       <td><span class="badge bg-success">90%</span></td>
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td>Online SIMDA BMD</td>
+      <td>
+        <div class="progress progress-xs progress-striped active">
+          <div class="progress-bar bg-warning" style="width: 90%"></div>
+        </div>
+      </td>
+      <td><span class="badge bg-warning">80%</span></td>
     </tr>
   </tbody>
 </table>
